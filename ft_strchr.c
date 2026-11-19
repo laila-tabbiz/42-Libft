@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ltabbiz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: ltabbiz <ltabbiz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 16:22:14 by ltabbiz           #+#    #+#             */
-/*   Updated: 2026/11/09 23:38:08 by ltabbiz          ###   ########.fr       */
+/*   Updated: 2026/11/19 13:02:47 by ltabbiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)&s[i]);
 		i++;
 	}
-	if (c == '\0')
+	if ((char)c == '\0')
 		return ((char *)&s[i]);
 	return (0);
 }
