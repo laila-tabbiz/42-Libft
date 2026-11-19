@@ -6,7 +6,7 @@
 /*   By: ltabbiz <ltabbiz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 20:16:46 by ltabbiz           #+#    #+#             */
-/*   Updated: 2026/11/19 14:57:52 by ltabbiz          ###   ########.fr       */
+/*   Updated: 2026/11/19 23:08:00 by ltabbiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_atoi(const char *nptr)
 {
 	int		i;
 	int		x;
-	int		r;
+	long	r;
 
 	i = 0;
 	while (nptr[i] == ' ' || ((nptr[i] <= 13 && nptr[i] >= 9)))
